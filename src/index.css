@@ -505,12 +505,6 @@ body {
   gap: 24px;
   margin-top: 0;
 }
-.events-grid .event-card:first-child {
-  grid-column: 1 / -1;
-  grid-row: 1;
-  display: grid;
-  grid-template-columns: 55% 1fr;
-}
 
 .event-card {
   display: flex;
@@ -605,10 +599,6 @@ body {
     padding: 60px 24px;
   }
   .events-grid {
-    grid-template-columns: 1fr;
-  }
-  .events-grid .event-card:first-child {
-    grid-column: 1;
     grid-template-columns: 1fr;
   }
 }
