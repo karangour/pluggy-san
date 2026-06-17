@@ -825,6 +825,8 @@ body {
   display: flex;
   gap: 8px;
   margin-bottom: 16px;
+  min-width: 0;
+  overflow: hidden;
 }
 .search-input-wrap {
   position: relative;
@@ -945,6 +947,9 @@ body {
   border-radius: 4px;
   padding: 6px 10px 6px 6px;
   width: 100%;
+  min-width: 0;
+  overflow: hidden;
+  box-sizing: border-box;
   animation: slideUp 0.2s ease both;
 }
 .search-bar-cover {
