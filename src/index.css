@@ -805,6 +805,7 @@ body {
   grid-template-columns: 400px 1fr;
   gap: 80px;
   align-items: start;
+  overflow: hidden;
 }
 
 @media (max-width: 1024px) {
@@ -1097,6 +1098,8 @@ body {
 .requests-block {
   display: flex;
   flex-direction: column;
+  min-width: 0;
+  overflow: hidden;
 }
 
 .empty-queue {
@@ -1120,6 +1123,8 @@ body {
   display: flex;
   flex-direction: column;
   gap: 12px;
+  min-width: 0;
+  overflow: hidden;
 }
 
 .request-item {
