@@ -1131,6 +1131,8 @@ body {
   border-radius: 8px;
   padding: 16px;
   cursor: pointer;
+  min-width: 0;
+  overflow: hidden;
   transition:
     border-color 0.2s,
     transform 0.2s;
