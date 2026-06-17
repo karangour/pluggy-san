@@ -1838,6 +1838,25 @@ body {
     position: static;
   }
 
+  .search-form,
+  .search-results,
+  .search-bar-selected {
+    max-width: 100%;
+    box-sizing: border-box;
+  }
+
+  .search-bar-selected {
+    flex-wrap: nowrap;
+    overflow: hidden;
+  }
+
+  .add-queue-btn {
+    font-size: 11px;
+    padding: 8px 10px;
+    white-space: nowrap;
+    flex-shrink: 0;
+  }
+
   /* Footer */
   .footer {
     flex-direction: column;
