@@ -56,6 +56,11 @@ ol {
 body {
   margin: 0;
   background: var(--black);
+  overflow-x: hidden;
+}
+
+html {
+  overflow-x: hidden;
 }
 
 #root {
