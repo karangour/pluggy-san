@@ -9,11 +9,8 @@ export default function About() {
           <p className="hero-eyebrow">THE MAN. THE MUSIC. THE MISSION.</p>
           <h1 className="hero-title">
             <span className="hero-line">ABOUT</span>
-            <img
-              src="/Pluggy San Logo.png"
-              alt="Pluggy San"
-              className="about-hero-logo"
-            />
+            <span className="hero-line accent">PLUGGY</span>
+            <span className="hero-line">SAN</span>
           </h1>
         </div>
       </section>

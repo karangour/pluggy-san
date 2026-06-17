@@ -96,24 +96,21 @@ export default function Home() {
               <span className="step-num">01</span>
               <h3>FIND THE EVENT</h3>
               <p>
-                Pick the night you're attending from the events list — or use
-                the direct link sent by PluggySan.
+                Pick the night you're attending from the events list.
               </p>
             </div>
             <div className="step">
               <span className="step-num">02</span>
               <h3>REQUEST A TRACK</h3>
               <p>
-                Search any song. We pull artwork, artist info and a preview
-                straight from the Deezer catalogue.
+                Search any song. Add it to the queue.
               </p>
             </div>
             <div className="step">
               <span className="step-num">03</span>
               <h3>VOTE IT UP</h3>
               <p>
-                Hit the vote button on any request. The more votes, the higher
-                it climbs — PluggySan sees it all in real-time.
+               Rally your crew! More votes, better the chances Pluggy San plays it.
               </p>
             </div>
           </div>

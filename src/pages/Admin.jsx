@@ -336,9 +336,8 @@ export default function Admin() {
   async function fetchRandomImage() {
     setRandomLoading(true);
     const genrePart = form.genre ? form.genre.split("/")[0].trim() : "";
-    const venuePart = form.venue || "";
     const term = encodeURIComponent(
-      [genrePart, venuePart, "dj"].filter(Boolean).join(" ") || "dj nightclub",
+      [genrePart, "club"].filter(Boolean).join(" ") || "dj nightclub",
     );
     try {
       const res = await fetch(

@@ -38,7 +38,7 @@ ol {
   --grey: #1a1a1a;
   --grey2: #2c2c2c;
   --grey3: #444;
-  --muted: #888;
+  --muted: #aaa;
   --border: #222;
 
   --font-display: "Barlow Condensed", "Arial Narrow", Arial, sans-serif;
@@ -642,7 +642,7 @@ body {
   font-weight: 900;
   font-size: 64px;
   line-height: 1;
-  color: var(--border);
+  color: var(--white);
   letter-spacing: -0.02em;
 }
 .step h3 {
@@ -805,7 +805,7 @@ body {
 /* REQUEST SECTION */
 .request-section {
   background: var(--black);
-  padding: 80px 0;
+  padding: 10px 0 80px;
 }
 .request-inner {
   max-width: 1200px;
@@ -1325,10 +1325,11 @@ body {
   z-index: 2;
 }
 .about-hero-logo {
-  height: 120px;
+  height: 170px;
   width: auto;
   display: block;
-  margin-top: 8px;
+  margin-top: -50px;
+  margin-left: -10px;
 }
 
 .about-body {
@@ -1776,5 +1777,83 @@ body {
   }
   .admin-inner {
     padding: 32px 20px;
+  }
+}
+
+/* =============================================
+   FLUID MOBILE — consolidated
+   ============================================= */
+@media (max-width: 768px) {
+  /* Navbar logo */
+  .navbar-logo-img {
+    height: 52px;
+  }
+
+  /* Hero */
+  .hero-sub {
+    font-size: 15px;
+    margin-top: 16px;
+  }
+
+  /* About hero logo */
+  .about-hero-logo {
+    height: 72px;
+  }
+
+  /* Event hero details */
+  .event-hero-meta {
+    flex-wrap: wrap;
+    gap: 8px;
+  }
+  .event-hero-venue {
+    font-size: clamp(18px, 5vw, 28px);
+  }
+
+  /* Request items */
+  .request-item {
+    gap: 10px;
+    padding: 12px;
+  }
+  .request-rank {
+    font-size: 20px;
+    min-width: 26px;
+  }
+  .request-cover {
+    width: 48px;
+    height: 48px;
+  }
+  .request-title {
+    font-size: 14px;
+  }
+  .request-artist,
+  .request-album {
+    font-size: 11px;
+  }
+  .vote-btn {
+    width: 36px;
+    height: 36px;
+    font-size: 14px;
+  }
+  .vote-count {
+    font-size: 18px;
+  }
+  .vote-label {
+    font-size: 9px;
+  }
+
+  /* Search block unstick on mobile */
+  .search-block {
+    position: static;
+  }
+
+  /* Footer */
+  .footer {
+    flex-direction: column;
+    gap: 16px;
+    text-align: center;
+    padding: 32px 24px;
+  }
+  .footer-logo-img {
+    height: 48px;
   }
 }
