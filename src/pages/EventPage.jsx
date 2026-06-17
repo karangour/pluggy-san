@@ -15,7 +15,7 @@ function getVoterId() {
 
 async function searchTracks(query) {
   const res = await fetch(
-    `https://itunes.apple.com/search?term=${encodeURIComponent(query)}&media=music&entity=song&limit=8`,
+    `/.netlify/functions/search?q=${encodeURIComponent(query)}`,
   );
   if (!res.ok) throw new Error("Search failed");
   const json = await res.json();
