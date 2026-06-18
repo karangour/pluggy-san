@@ -22,7 +22,7 @@ export default function Home() {
           </p>
           {upcoming.length > 0 && (
             <Link to={`/event/${upcoming[0].id}`} className="hero-cta">
-              REQUEST NOW ↗
+              REQUEST NOW <span className="cta-arrow">↗</span>
             </Link>
           )}
         </div>
@@ -96,21 +96,24 @@ export default function Home() {
               <span className="step-num">01</span>
               <h3>FIND THE EVENT</h3>
               <p>
-                Pick the night you're attending from the events list.
+                Pick the night you're attending. Or scan the QR code next to
+                Pluggy San during the set.
               </p>
             </div>
             <div className="step">
               <span className="step-num">02</span>
               <h3>REQUEST A TRACK</h3>
               <p>
-                Search any song. Add it to the queue.
+                Search any song and add it to the queue. Before the gig or while
+                you're there.
               </p>
             </div>
             <div className="step">
               <span className="step-num">03</span>
               <h3>VOTE IT UP</h3>
               <p>
-               Rally your crew! More votes, better the chances Pluggy San plays it.
+                Get your crew to vote. More votes = better chances Pluggy San
+                drops it live.
               </p>
             </div>
           </div>
