@@ -22,7 +22,7 @@ export default function Home() {
           </p>
           {upcoming.length > 0 && (
             <Link to={`/event/${upcoming[0].id}`} className="hero-cta">
-              REQUEST NOW <span className="cta-arrow">↗</span>
+              REQUEST NOW
             </Link>
           )}
         </div>

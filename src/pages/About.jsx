@@ -21,11 +21,9 @@ export default function About() {
           <h2 className="section-heading">
             GOA.
             <br />
-            <span className="accent">FILM.</span>
+            <span className="accent">FILMS.</span>
             <br />
-            THE
-            <br />
-            DANCEFLOOR.
+            MUSIC.
           </h2>
           <div className="about-paragraphs">
             <p>

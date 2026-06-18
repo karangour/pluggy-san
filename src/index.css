@@ -524,13 +524,14 @@ html {
     z-index: 2;
   }
   .about-hero::after {
-    width: 100%;
-    height: 50%;
+    width: 50%;
+    height: calc(100% - 64px);
     top: 64px;
-    bottom: auto;
-    background: url("/About.png") center 20% / cover no-repeat;
-    mask-image: linear-gradient(to bottom, black 60%, transparent 100%);
-    -webkit-mask-image: linear-gradient(to bottom, black 60%, transparent 100%);
+    right: 0;
+    left: auto;
+    background: url("/About.png") 55% 20% / cover no-repeat !important;
+    mask-image: linear-gradient(to right, transparent 0%, black 30%);
+    -webkit-mask-image: linear-gradient(to right, transparent 0%, black 30%);
   }
 }
 
